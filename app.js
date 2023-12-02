@@ -14,7 +14,7 @@ const Year= publicationYear.value
  }
  const newBook = document.createElement("li");
  newBook.className=`
- d-flex justify-content-between alert alert-light
+ d-flex justify-content-between alert alert-light align-items-center
  `
 newBook.innerHTML=`
 <strong>${Title} </strong>
